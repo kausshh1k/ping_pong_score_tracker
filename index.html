@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="app.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Score Kepper</title>
+  </head>
+  <body>
+    <section>
+      <img
+        src="https://images.pexels.com/photos/569986/pexels-photo-569986.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        alt="ping-pong-sport"
+      />
+      <div class="title">Ping Pong Score Keeper</div>
+      <h1 class="score">
+        <span id="p1">0</span>&nbsp; - &nbsp;<span id="p2">0</span>
+      </h1>
+      <div class="playingTo">
+        <span><p>Points:</p></span>
+
+        <select name="sel" id="sel">
+          <option value="0">0</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+          <option value="13">13</option>
+          <option value="14">14</option>
+          <option value="15">15</option>
+          <option value="16">16</option>
+          <option value="17">17</option>
+          <option value="18">18</option>
+          <option value="19">19</option>
+          <option value="20">20</option>
+        </select>
+      </div>
+      <div class="desc"><p>Use the buttons to keep score.</p></div>
+      <div class="btns">
+        <div class="plyBtns">
+          <button id="plyBtn1">+1 Player One</button>
+          <button id="plyBtn2">+1 Player Two</button>
+        </div>
+        <div class="resetDiv">
+          <button class="resetBtn">Reset</button>
+        </div>
+      </div>
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>
